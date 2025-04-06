@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(245, 244, 244);
+    min-height: 100vh;
+}
+
+/* Logo Nav */
+
+.main-logo {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+/* Navigation */
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    gap: 40px;
+}
+.groceries-text-container {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+}
+
+
+.dinner-text-container {
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+
+}
+
+.others-text-container {
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+}
